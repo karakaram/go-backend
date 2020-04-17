@@ -1,4 +1,4 @@
-FROM golang:1.14.2-alpine AS golang
+FROM golang:1.14.2 AS dev
 WORKDIR /work/go-cli-sandbox
 ENV GO111MODULE=on
 

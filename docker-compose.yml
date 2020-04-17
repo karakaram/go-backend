@@ -19,7 +19,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      target: golang
+      target: dev
     tty: true
     working_dir: "/work/go-cli-sandbox"
     volumes:
